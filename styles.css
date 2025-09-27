@@ -149,22 +149,51 @@ h4 {
    color: #0c4467;
 }
 
-
-.canvas-container-top {
-   display: grid;
-   grid-template-columns: 2fr 2fr 2fr 2fr 2fr; 
-   grid-template-rows: auto auto auto; 
-   gap: 1rem;
+.canvas-top, .canvas-bottom{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 1rem;
+ margin-bottom: 1rem;
 }
 
-.canvas-vert-cont, .canvas-mini {
+.canvas-card, .canvas-card-mini {
    background-color: #ddd;
+   min-width: 300px;
    padding: 1rem;
-   border-radius: 1rem;
+}
+
+.canvas-card-mini {
    margin-bottom: 1rem;
 }
 
-.canvas-vert-cont > h4, .canvas-mini > h4 {
-     color: #0c4467;
+.canvas-img {
+   width: 100%;
+}
 
+.col-1 > h4 {
+   color: #1c9f01;
+}
+
+.col-2 > h4 {
+   color: #ff8c00;
+}
+
+.col-3 > h4 {
+   color: #ff0000;
+}
+
+.col-4 > h4 {
+   color: #0062ff;
+}
+
+.col-5 > h4 {
+   color: #ff00ff;
+}
+
+.col-6 > h4 {
+   color: #2600ff;
+}
+
+.col-7 > h4 {
+   color: #b29400;
 }
