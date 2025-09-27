@@ -36,7 +36,7 @@ h2 {
 }
 
 p {
-   font-size: 1.5rem;
+   font-size: 1rem;
 }
 
 h3 {
@@ -81,7 +81,7 @@ h4 {
 
 .mv,
 .who-we-are {
-   margin: 2% 5%;
+   margin: 1rem 1.5rem;
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
@@ -123,7 +123,7 @@ h4 {
 .steam,
 .foda,
 .canvas {
-   margin: 2% 5%;
+   margin: 1rem 1.5rem;
 }
 
 .steam-cards-container,
