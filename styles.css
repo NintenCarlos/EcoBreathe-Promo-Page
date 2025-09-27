@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+   font-family: "Raleway", sans-serif;
+   padding: 0;
+   margin: 0;
+   background-color: #eee;
+   color: #020c12;
+}
+
+/* @keyframes slide-in {
+   from {
+      margin-right: 100%;
+      width: 300%;
+   }
+
+   to {
+      margin-left: 0%;
+      width: 100%;
+   }
+} */
+
+h1 {
+   font-size: 4rem;
+   text-align: center;
+   color: #168b47;
+   margin-bottom: 0;
+
+   animation: slide-in 1.5s;
+}
+
+h2 {
+   font-size: 3rem;
+   text-align: center;
+   color: #168b47;
+}
+
+p {
+   font-size: 1.5rem;
+}
+
+h3 {
+   font-size: 2rem;
+   color: #168b47;
+}
+
+h4 {
+   font-size: 1.7rem;
+   color: #0798e7;
+   text-align: center;
+}
+
+.navbar {
+   background-color: #168b47;
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+}
+
+.navbar > img {
+   width: 7rem;
+}
+
+.logo-text {
+   font-weight: bold;
+   color: #eee;
+   font-size: 1.7rem;
+   padding-left: 1rem;
+}
+
+.slogan {
+   margin: 0;
+   font-size: 2rem;
+   text-align: center;
+   font-style: italic;
+   color: grey;
+   font-weight: 300;
+
+   animation: slide-in 1.5s;
+}
+
+.mv,
+.who-we-are {
+   margin: 2% 5%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   gap: 1.5rem;
+}
+
+.who-we-are {
+   align-items: center;
+}
+
+.hwe-text,
+.hwe-img,
+.mision,
+.vision,
+.values {
+   flex: 1;
+   min-width: 500px;
+   text-align: center;
+}
+
+.hwe-logo {
+   width: 25rem;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+}
+
+.values-list {
+   justify-content: center;
+   list-style: none;
+   gap: 1.5rem;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 1.5rem;
+}
+
+.steam,
+.foda,
+.canvas {
+   margin: 2% 5%;
+}
+
+.steam-cards-container,
+.rows {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   gap: 1rem;
+   margin-bottom: 1.5rem;
+}
+
+.steam-cards,
+.char {
+   background-color: #ddd;
+   padding: 0 1rem;
+   border-radius: 1rem;
+   flex: 1;
+   min-width: 250px;
+}
+
+.char > h4 {
+   color: #0c4467;
+}
+
+
+.canvas-container-top {
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr 2fr 2fr; 
+   grid-template-rows: auto auto auto; 
+   gap: 1rem;
+}
+
+.canvas-vert-cont, .canvas-mini {
+   background-color: #ddd;
+   padding: 1rem;
+   border-radius: 1rem;
+   margin-bottom: 1rem;
+}
+
+.canvas-vert-cont > h4, .canvas-mini > h4 {
+     color: #0c4467;
+
+}
