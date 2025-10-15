@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 body {
    font-family: "Raleway", sans-serif;
@@ -8,28 +9,15 @@ body {
    color: #020c12;
 }
 
-@keyframes slide-in {
-   from {
-      margin-right: 100%;
-      width: 300%;
-   }
-
-   to {
-      margin-left: 0%;
-      width: 100%;
-   }
-}
-
 h1 {
    font-size: 2.5rem;
    text-align: center;
    color: #168b47;
    margin-bottom: 0;
-
-   animation: slide-in 1.5s;
 }
 
 h2 {
+   font-family: 'Sansation';
    font-size: 2rem;
    text-align: center;
    color: #168b47;
@@ -40,6 +28,7 @@ p {
 }
 
 h3 {
+   font-family: 'Sansation';
    font-size: 1.5rem;
    color: #168b47;
 }
@@ -49,6 +38,7 @@ h4 {
    color: #0798e7;
    text-align: center;
 }
+
 
 .navbar {
    background-color: #168b47;
@@ -76,8 +66,6 @@ h4 {
    font-style: italic;
    color: grey;
    font-weight: 300;
-
-   animation: slide-in 1.5s;
 }
 
 .main-container {
@@ -110,7 +98,7 @@ h4 {
 }
 
 .hwe-logo {
-   width: 15rem;
+   width: 12rem;
    height: auto;
    display: block;
    margin: 0 auto;
@@ -129,7 +117,7 @@ h4 {
 .steam,
 .foda,
 .canvas {
-   margin: 1rem 1rem;
+   margin: 2rem 1rem;
 }
 
 .steam-text {
@@ -179,11 +167,18 @@ h4 {
 }
 
 .canvas-card-mini {
+   justify-content: center;
    margin-bottom: 1rem;
 }
 
+.canvas-img-cont {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 2rem;
+}
+
 .canvas-img {
-   width: 100%;
+   max-width: 90%;
 }
 
 .col-1 > h4 {
